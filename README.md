@@ -1,5 +1,5 @@
 # pitscher.github.io
-This is my personal blog in the making. If you want to find out more how to do to do it please visit my friend [kleinfreund](kleinfreund.de)
+This is my personal blog in the making. If you want to find out more how to do to do it please visit my friend [kleinfreund](http://hey.kleinfreund.de)
 
 
 ## To Do
