@@ -1,0 +1,85 @@
+name: pitscher
+title: pitscher.com
+url: #Hier URL einfügen, sobald eine gekauft
+
+permalink: /:categories/:year/:month/:title
+relative_permalinks: false
+
+max_posts: 10
+
+gems:
+  - jekyll-sitemap
+
+kramdown:
+  input: GFM
+  auto_ids: true
+
+sass:
+  style: :compressed
+
+
+
+# Asset paths
+assets:
+  css: /css/
+  sass: /sass/
+  fonts: /fonts/
+  images: /img/
+  javascript: /js/
+
+loadCSS_js: true
+
+# ui_color: 222
+
+# Author information
+author:
+  name: Matthias Schäfer
+  email: schaefer9111@gmail.com
+  twitter: https://twitter.com/AstreinerBaum
+  github: https://github.com/astreinerbaum
+  flickr: https://www.flickr.com/photos/branchfree
+
+#Gotta figure out how to use it: google_verify: 2D5zbZ2Vatb8CeFj1cUCRdJZ3SQatSUlQesml02jEPo
+
+# compress.html by Anatol Broder (http://jch.penibelst.de)
+compress_html:
+  clippings: all
+  comments: ["<!--", "-->"]
+  endings: all
+  ignore:
+    envs: [local]
+
+
+
+defaults:
+  # Default layout and language to everything
+  -
+    values:
+      layout: "default"
+      lang: "de"
+  # Specify default pages’ layout
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  # Specify default posts’ layout
+  -
+    scope:
+      type: "posts"
+    values:
+      layout: "post"
+  # Set language for everything inside `/en`
+  -
+    scope:
+      path: "en"
+    values:
+      lang: "en"
+  # Set language for English posts
+  -
+    scope:
+      path: "en/_posts"
+      type: "posts"
+    values:
+      lang: "en"

@@ -1,0 +1,27 @@
+---
+layout: default
+---
+<article class="post">
+    <ul class="meta-list">
+        <li>
+            {% include _date.html date=post.date %}
+        </li>
+
+        {% for tag in page.tags %}
+        <li><a href="/tags#{{ tag }}">{{ tag }}</a></li>
+        {% endfor %}
+    </ul>
+
+    <h1>{{ page.title }}</h1>
+
+    {{ content }}
+    
+<!-- Next/previous Post not yet working
+     {% if page.previous %} 
+        <a rel="prev" href="{{ page.previous.url }}">&larr; älter</a>
+    {% endif %}
+    {% if page.next %} 
+        <a rel="next" href="{{ page.next.url }}">neuer &rarr;</a>
+    {% endif %}
+-->
+</article>

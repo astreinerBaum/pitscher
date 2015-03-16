@@ -1,0 +1,92 @@
+.page-content {
+    @include vertical-gap(bottom);
+    ul, ol {
+        list-style-position: outside;
+    }
+}
+
+.post-list {
+    list-style: none;
+    @include vertical-gap(bottom);
+    > li {
+        @include vertical-gap();
+        >:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+
+.meta-list {
+    font-weight: $base-font-weight;
+    list-style: none;
+    margin-left: 0;
+    margin-bottom: -1em;
+    > li {
+        display: inline-block;
+        @include font-size(12px);
+        + li {
+            position: relative;
+            &:before {
+                /* content: &middot; */
+                
+                content: "\00B7";
+                position: relative;
+                margin-right: $base-spacing-unit/6;
+                margin-left: $base-spacing-unit/6;
+            }
+        }
+    }
+}
+
+.block-note {
+    position: relative;
+    display: block;
+    @include font-size(16px);
+    @extend %vertical-rhythm;
+    &:before {
+        /* content: "/!\ "; */
+        
+        content: "\2F \21 \5C \A0";
+        position: absolute;
+        right: 100%;
+        color: $ui-color;
+        font-family: Consolas, Courier New, Courier, monospace;
+        font-weight: bold;
+    }
+}
+
+.quote__body {
+    >:last-child {
+        margin-bottom: 0;
+    }
+}
+
+.quote__source {
+    display: block;
+    &:before {
+        content: "\2014";
+    }
+}
+/**
+ * Responsive video/audio players
+ *   - Use 16:9 for videos in general
+ *   - Respect SoundCloud's fixed height to calculate ratio
+ */
+
+.iframe-wrapper {
+    @extend %vertical-rhythm;
+    &__video {
+        @include aspect-ratio(16, 9);
+    }
+    &__soundcloud {
+        @include aspect-ratio(620, 166);
+    }
+}
+.noliststyle {
+    list-style: none;
+}
+
+.archive-list {
+    list-style-type: none;
+    text-align: left;
+}
