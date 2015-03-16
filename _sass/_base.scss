@@ -88,7 +88,7 @@ img {
     /* Emphasis on `alt` text */
     font-style: italic;
     height: auto;
-    width: auto;
+    max-width: 100%;
 }
 
 img, svg {
