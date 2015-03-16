@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        
+        <title>pitscher.com (Deutsche Beiträge)</title>
+        <description>Pitscher über Dinge.</description>
+        <link>/</link>
+        <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Mon, 16 Mar 2015 00:25:25 +0000</pubDate>
+        <lastBuildDate>Mon, 16 Mar 2015 00:25:25 +0000</lastBuildDate>
+        <generator>Jekyll v2.5.3</generator>
+        
+            <item>
+                <title>Endlich anfangen</title>
+                <description>&lt;p&gt;Da habe ich jetzt doch tatsächlich über einen Monat an dem Design für dieses Tagebuch gearbeitet. &lt;br /&gt;
+Eigentlich wollte ich für meine Reise nach Kasachstan im Juli 2014 schon einen Blog starten, da ich aber irgendwie auch was mit Webdesign machen wollte, sollte das Ding natürlich selbst gemacht werden. &lt;br /&gt;
+Also saß ich da im 9m&lt;sup&gt;2&lt;/sup&gt; Büro und habe mich mit wordpress beschäftigt anstatt mir &lt;em&gt;einfach&lt;/em&gt; einen tumblr account zu erstellen und loszuschreiben. &lt;br /&gt;
+Zurück in Deutschland dann von meinem neuen Mitbewohner Philipp von jekyll mitbekommen. Das ist so ein static site generator. &lt;br /&gt;
+Hmm… schonmal beim Web Basics Seminar gehört, dort haben wir uns &lt;a href=&quot;http://getkirby.com/&quot;&gt;kirby&lt;/a&gt; angeschaut.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Was ist nun der Vorteil von &lt;a href=&quot;http://jekyllrb.com&quot;&gt;jekyll&lt;/a&gt;?&lt;/strong&gt; &lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Es ist open source (und alles was open source ist, ist gut). &lt;/li&gt;
+  &lt;li&gt;Es generiert deine Seiten. Du gibst Jekyll also eine Vorlage und den Content (Markdown dateien) und Jekyll macht den Rest.&lt;/li&gt;
+  &lt;li&gt;Man kann es auf &lt;a href=&quot;http://github.com&quot;&gt;GitHub&lt;/a&gt; hosten. Kostenloser Webspace (!) wenn man in Kauf nimmt jedem seinen Quellcode zu präsentieren.&lt;/li&gt;
+  &lt;li&gt;Total Simpel und super einfach zu lernen!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Also habe ich mich tagelang mit GitHub und Jekyll auseinandergesetzt. Mindestens 3 mal angefangen die Website aufzubauen. Irgendwann halb resigniert und &lt;a href=&quot;http://hey.kleinfreund.de&quot;&gt;Philipps&lt;/a&gt; Website runtergeladen und mir angeschaut wie sie aufgebaut ist.&lt;/p&gt;
+
+&lt;p&gt;Nun, fast einen Monat später weiß ich ungefähr wie seine (jetzt meine) Seite funktioniert und bin auch mit der Gestaltung ganz zufrieden. Es müssen zwar noch ein paar Bugs ausgemerzt und ein paar features hinzugefügt, aber sonst kann es losgehen.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Was genau ich hier schreiben werde weiß ich noch nicht, aber es wird meine Interessen und Erfahrungen widerspiegeln. &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Viel Spaß wünsch ich mir&lt;/strong&gt;&lt;/p&gt;
+
+</description>
+                <pubDate>Sun, 15 Mar 2015 20:54:00 +0000</pubDate>
+                <link>/2015/03/Endlich-Anfangen</link>
+                <guid isPermaLink="true">/2015/03/Endlich-Anfangen</guid>
+                
+                <category>personal</category>
+                
+            </item>
+        
+    </channel>
+</rss>
