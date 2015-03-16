@@ -1,6 +1,6 @@
 name: pitscher
 title: pitscher.com
-url: #Hier URL einfügen, sobald eine gekauft
+url: http://matthias.pitscher.pw
 
 permalink: /:categories/:year/:month/:title
 relative_permalinks: false
