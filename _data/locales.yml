@@ -8,7 +8,7 @@ de:
     url: '/ueber/'
 
   description: 'Pitscher über Dinge.'
-  footer: 'Code <a href="hey.kleinfreund.de">Philipp Rudloff</a> editiert von <a href="http://github.com/astreinerBaum/pitscher.github.io">Matthias Schäfer</a> </br> Alle Inhalte  unter <a href="http://creativecommons.org/licenses/by-sa/3.0/de" title="Namensnennung – Weitergabe unter gleichen Bedingungen">CC BY-SA</a> lizenziert </br> Auf <a href="http://github.com/astreinerBaum/pitscher.github.io">GitHub</a> gehostet mit <a href="jekyllrb.com">jekyll</a> erstellt. </br><a href="/impressum">Impressum</a>'
+  footer: 'Code <a href="http://hey.kleinfreund.de">Philipp Rudloff</a> editiert von <a href="http://github.com/astreinerBaum/pitscher.github.io">Matthias Schäfer</a> </br> Alle Inhalte  unter <a href="http://creativecommons.org/licenses/by-sa/3.0/de" title="Namensnennung – Weitergabe unter gleichen Bedingungen">CC BY-SA</a> lizenziert </br> Auf <a href="http://github.com/astreinerBaum/pitscher.github.io">GitHub</a> gehostet mit <a href="http://jekyllrb.com">jekyll</a> erstellt. </br><a href="/impressum">Impressum</a>'
 
 en:
   url: '/en/'
@@ -18,6 +18,6 @@ en:
   nav:
   - text: 'about'
     url: '/en/about/'
-  
+
   description: 'Pitscher about stuff'
-  footer: 'Code <a href="hey.kleinfreund.de">Philipp Rudloff</a> | edited by <a href="mailto:schaefer9111@gmail.com">Matthias Schäfer</a> </br> All content is licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0" title="Attribution – ShareAlike">CC BY-SA</a> </br> Hosted on <a href="http://github.com/astreinerBaum/pitscher.github.io">GitHub</a> using <a href="jekyllrb.com">jekyll</a> </br> <a href="/en/legal-disclosure">Legal disclosure</a>'
+  footer: 'Code <a href="http://hey.kleinfreund.de">Philipp Rudloff</a> | edited by <a href="mailto:schaefer9111@gmail.com">Matthias Schäfer</a> </br> All content is licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0" title="Attribution – ShareAlike">CC BY-SA</a> </br> Hosted on <a href="http://github.com/astreinerBaum/pitscher.github.io">GitHub</a> using <a href="http://jekyllrb.com">jekyll</a> </br> <a href="/en/legal-disclosure">Legal disclosure</a>'
