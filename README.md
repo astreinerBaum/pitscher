@@ -4,22 +4,15 @@ This is my personal blog in the making. If you want to find out more how to do t
 
 ## To Do
 - Check on Smartphone (380px should be good)
-- spacing title and text on frontpage
-- Archives should be the same
-- Clean code
-- change About Section !EN
-    -picture
 - change favicon?
 
 
 ##Known Bugs
-- nav
-- English archive (date-title spacing)
+- I think none, but if you find any please help me solve it :) 
 
 
 ## Features to include
-- link DE|EN posts to each other
-- Next/Previous Post
+- Next/Previous Post (not possible?)
 - subtle pattern?
 - include facebook, youtube, vimeo, flickr icons?
 - Comments section? (with disqus maybe)
