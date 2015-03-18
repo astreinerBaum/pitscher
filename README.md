@@ -1,14 +1,16 @@
-# pitscher.github.io
-This is my personal blog in the making. If you want to find out more how to do to do it please visit my friend [kleinfreund](http://hey.kleinfreund.de)
+# matthias.pitscher.pw
+This is my personal blog. If you want to find out more on how to creat your own please visit [kleinfreund](http://hey.kleinfreund.de). I got inspired by his former template.
 
 
 ## To Do
-- Check on Smartphone (380px should be good)
-- change favicon?
+- change favicon to ui-color?
 
 
 ##Known Bugs
-- I think none, but if you find any please help me solve it :)
+**If you find any please help me solve it :)**
+- Footnotes too much margin 
+
+
 
 
 ## Features to include
