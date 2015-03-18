@@ -10,6 +10,9 @@ tags:
 
 *The English version is an Excerpt of my final Report. Sorry but I don't want to translate an article of almost 5000 words at the moment*
 <!--more-->
+*Pictures say more than 1000 words they say, feel free to enjoy them*
+<iframe src="https://www.flickr.com/photos/branchfree/14569507760/in/set-72157645552951190/player/" width="800" height="534" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+
 ### Before going abroad
 First a little bit about the ASA-Program which supports young people, who want to engage and participate in a global and sustainable world. It is a governmental learning program with a 3 month internship abroad.
 After applying for an Internship the ASA-Program provides their participants with two mandatory seminars. These Seminars give you a wide variety of knowledge concerning global disparities, ethnic differences, the impact of colonization and some information about the country you will go to.
@@ -44,4 +47,6 @@ In the beginning of the internship me and Masha talked about making a short film
 
 ### Résumé 
 
-The conclusion is as it always is in live a little bit of everything. The time in Kazakhstan was definitely the most interesting I had in life so far. Work wise it could have turned out a little bit better. Masha did her best in giving us tasks we can accomplish and even made two work schedules, which we tried to follow as good as possible.  I feel bad now, because I think I could have done more for the organization and they probably feel bad in giving me the wrong (or not enough?) tasks. At least this is how I read Mashas last words to me at our farewell party “I hope you learned something”. It seemed to me there was some guilt in those words.  And I can assure you, Masha, I learned more then I could expect. Not only professionally I improved my skills in Illustration, Typography, Posterdesign and Photography drastically, but as a human I feel so satisfied that I finally got introduced to this culture.  I am grateful for every person I met there. So many interesting characters, you really shaped me as a human being.  Thank you,  Матиас 
+The conclusion is as it always is in live a little bit of everything. The time in Kazakhstan was definitely the most interesting I had in life so far. Work wise it could have turned out a little bit better. Masha did her best in giving us tasks we can accomplish and even made two work schedules, which we tried to follow as good as possible.  I feel bad now, because I think I could have done more for the organization and they probably feel bad in giving me the wrong (or not enough?) tasks. At least this is how I read Mashas last words to me at our farewell party “I hope you learned something”. It seemed to me there was some guilt in those words.  And I can assure you, Masha, I learned more then I could expect. Not only professionally I improved my skills in Illustration, Typography, Posterdesign and Photography drastically, but as a human I feel so satisfied that I finally got introduced to this culture.  I am grateful for every person I met there. So many interesting characters, you really shaped me as a human being.  
+Thank you,  
+Матиас 
