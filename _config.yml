@@ -6,6 +6,7 @@ permalink: /:categories/:year/:month/:title
 relative_permalinks: false
 
 max_posts: 10
+excerpt_separator: <!--more-->
 
 gems:
   - jekyll-sitemap

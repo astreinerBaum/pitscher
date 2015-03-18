@@ -10,7 +10,7 @@ Eigentlich wollte ich für meine Reise nach Kasachstan im Juli 2014 schon einen 
 Also saß ich da im 9m<sup>2</sup> Büro und habe mich mit wordpress beschäftigt anstatt mir *einfach* einen tumblr account zu erstellen und loszuschreiben. 
 Zurück in Deutschland dann von meinem neuen Mitbewohner Philipp von jekyll mitbekommen. Das ist so ein static site generator. 
 Hmm... schonmal beim Web Basics Seminar gehört, dort haben wir uns [kirby](http://getkirby.com/) angeschaut.
-
+<!--more-->
 __Was ist nun der Vorteil von [jekyll](http://jekyllrb.com)?__ 
 
 * Es ist open source (und alles was open source ist, ist gut). 

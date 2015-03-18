@@ -9,7 +9,7 @@ Now I worked over a month on the design of this diary.
 Actually I wanted to make a blog for my internship in Kazakhstan in July 2014, but because I also like to do web design I wanted to create my blog from scratch. 
 So I sat in our 9m<sup>2</sup> office and read about wordpress and how to make a template for it instead of *just* creating a tumblr account and start writing. Back in Germany my new Flatmate Philipp told me about jekyll, which is a static site generator. 
 Hmm... I heard that before, in a Web Basics seminar we looked at [kirby](http://getkirby.com/).
-
+<!--more-->
 __But what is the advantage of [jekyll](http://jekyllrb.com)?__ 
 
 * It's open source and everything open source is good! (and free)

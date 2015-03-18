@@ -24,7 +24,7 @@ figure {
 
 /**
  * Set `margin-bottom` to maintain vertycal rhythm
- */
+*/
 h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl,
@@ -37,11 +37,12 @@ figure,
 
 
 
+
 /**
  * Wrapper
  */
 .wrapper {
-    max-width: 720px;
+    max-width: 800px;
     margin: 0 auto;
     padding-right: $base-spacing-unit;
     padding-left: $base-spacing-unit;
@@ -110,7 +111,7 @@ img, svg {
 .img--center {
     display: block;
     margin-right: auto;
-    margin-bottom: $base-spacing-unit;
+    margin-bottom: $half-spacing-unit;
     margin-left: auto;
 }
 
