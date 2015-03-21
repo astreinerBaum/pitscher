@@ -2,7 +2,7 @@ name: pitscher
 title: PITSCHER
 url: http://matthias.pitscher.pw
 
-permalink: /:categories/:year/:month/:title
+permalink: /:categories/:title
 relative_permalinks: false
 
 max_posts: 10
@@ -80,7 +80,7 @@ defaults:
   # Set language for English posts
   -
     scope:
-      path: "en/_posts"
+      path: "_posts/en"
       type: "posts"
     values:
       lang: "en"
