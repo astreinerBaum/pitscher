@@ -2,6 +2,7 @@
     @include vertical-gap(bottom);
     ul, ol {
         list-style-position: outside;
+        list-style-type: square;
     }
 }
 
@@ -29,9 +30,8 @@
             &:before {
                 /* content: &middot; */
                 
-                content: "\00B7";
+                content: "#";
                 position: relative;
-                margin-right: $base-spacing-unit/6;
                 margin-left: $base-spacing-unit/6;
             }
         }
