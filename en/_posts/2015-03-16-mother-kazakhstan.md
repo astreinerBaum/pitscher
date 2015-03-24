@@ -5,9 +5,7 @@ tags:
 - personal 
 - travel
 ---
-
 <img src="https://farm8.staticflickr.com/7613/16661901339_4a7a2700b0_c.jpg" width="800" height="421" alt="Kazakhstan in kazakh">
-
 *The English version is an Excerpt of my final Report. Sorry but I don't want to translate an article of almost 5000 words at the moment*
 <!--more-->
 *They say pictures say more than a thousand words, please feel free to enjoy them*  

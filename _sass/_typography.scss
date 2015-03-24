@@ -7,6 +7,9 @@ html {
 }
 
 p { 
+    @include media-query(palm){
+        font-size: $small-font-size;
+    }
     & a {
         text-decoration: underline;
     }
@@ -29,11 +32,15 @@ h1 {
     text-align: center;
     font-weight: $extrabold-font-weight;
     font-style: italic;
+
 }
 
 h2 {
     @include font-size($h2-size);
-    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 0;
+    line-height: normal;
+
 }
 
 h3 {

@@ -6,7 +6,6 @@ tags:
 - travel
 ---
 <img src="https://farm8.staticflickr.com/7613/16661901339_4a7a2700b0_c.jpg" width="800" height="421" alt="Kazakhstan in kazakh">
-
 Juli 2014 war eine spannender Monat. Erst hab ich mir ordentlich auf der Fusion an einer Erdnussdose in den Finger geschnitten, woraufhin ich genäht wurden musste, dann habe ich meine interaktive Installation [_People Watching People_](https://vimeo.com/102006377) auf der Summaery ausgestellt und bin 3 Tage später von Berlin über Moskau nach Karaghanda (in Kasachstan) geflogen.  
 Obwohl ich einen Beitrag über jedes dieser Ereignisse schreiben könnte, möchte ich mich auf letzteres konzentrieren. Ich habe mich im Januar 2014 bei dem [ASA-Programm](http://www.asa-programm.de/) beworben, das "ist ein [deutsches] gemeinnütziges und politisch unabhängiges entwicklungspolitisches Praktikumsprogramm".<!--more-->[^1]  Das Programm bietet einem die Möglichkeit als Stipendiat ein Praktikum in vielen Teilen der Welt zu absolvieren. Darauf gestoßen bin ich über eine Infoveranstaltung an der Uni, wobei ich eigentlich nie vor hatte ein Praktikum während meiner Studienzeit zu absolvieren, habe ich doch geschaut welche Partner ASA dieses Jahr hatte und bin prompt auf zwei recht interessante Projekte in Kasachstan und Usbekistan gestoßen.  
 Diese zwei Länder zu bereisen war seit einiger Zeit ein Wunsch von mir, weil der Großteil meiner Familie mal dort gelebt hat und ich mir aus den Erzählungen und Bildern nur ein sehr gestückeltes Bild machen konnte. Sicher ist 25 Jahre nach dem Fall der Sowjetunion heute vieles anders als meine Eltern mir beschreiben dachte ich mir.  
@@ -135,7 +134,7 @@ Vor und während meiner Reise wurde ich häufig gewarnt sehr vorsichtig zu sein.
 Damit will ich den endlos langen Beitrag beenden, obwohl es noch so viele Geschichten zu erzählen gäbe. <s>Der erste der alles gelesen hat kann mir eine [Mail](mailto: schaefer9111@gmail.com) schicken und ich schenke ihm/ihr eines meiner Bilder, natürlich gerahmt und signiert.</s> (Herzlichen Glückwunsch Philipp Rudloff)   
 Die Bilder könnt ihr euch in meinem [Flickr Album](https://www.flickr.com/photos/branchfree/sets/72157645552951190/) anschauen.  
 
-<iframe src="https://www.flickr.com/photos/branchfree/14569507760/in/set-72157645552951190/player/" width="800" height="500" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>  
+<iframe src="https://www.flickr.com/photos/branchfree/14569507760/in/set-72157645552951190/player/" width="800" height="421" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>  
 
 
 --- 
