@@ -8,7 +8,7 @@ de:
     url: '/ueber/'
 
   description: 'Pitscher über Dinge.'
-  footer: 'Code <a href="http://github.com/astreinerBaum/pitscher.github.io">Matthias Schäfer</a> & <a href="http://hey.kleinfreund.de">Philipp Rudloff</a> </br> Alle Inhalte <a href="http://creativecommons.org/licenses/by-sa/3.0/de" title="Namensnennung – Weitergabe unter gleichen Bedingungen">CC BY-SA</a> lizenziert </br> Auf <a href="https://pages.github.com/">GitHub</a> gehostet mit <a href="http://jekyllrb.com">jekyll</a> erstellt. </br><a href="/impressum">Impressum</a>'
+  footer: 'Code <a href="http://github.com/astreinerBaum/pitscher.github.io">Matthias Schäfer</a> & <a href="http://hey.kleinfreund.de">Philipp Rudloff</a> </br> Alle Inhalte unter <a href="http://creativecommons.org/licenses/by-sa/3.0/de" title="Namensnennung – Weitergabe unter gleichen Bedingungen">CC BY-SA</a> lizenziert </br> Auf <a href="https://pages.github.com/">GitHub</a> gehostet mit <a href="http://jekyllrb.com">jekyll</a> erstellt. </br><a href="/impressum">Impressum</a>'
 
 en:
   url: '/en/'
