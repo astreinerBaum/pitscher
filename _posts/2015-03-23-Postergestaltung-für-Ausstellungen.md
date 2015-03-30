@@ -43,7 +43,7 @@ Der einzige, der nicht auf Orpheus' Freundesliste war, war Dyonisos, der Gott de
 Ziemlich harter Künstler also und deswegen habe ich nach CreativeCommons Gemälden gesucht, die ich für das Poster umgestalten konnte.  
 
 <img src="/img/Orpheus_bw.png" alt="Gemälde in schwarzen und weißen Pixel">  
-<sup>Abgelehnter Posterentwurf basierend auf Lazzarinis Gemälde in außlischlich schwarzen und weißen Pixel</sup>
+<sup>Abgelehnter Posterentwurf basierend auf Lazzarinis Gemälde in ausschließlich schwarzen und weißen Pixel</sup>
 <img src="/img/Orpheus_pixelated.png" alt="Verpixeltes Gemälde">
 <sup> Verpixeltes Gemälde als Posterentwurf </sup>  
  
