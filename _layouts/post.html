@@ -5,11 +5,20 @@ layout: default
     <center>
     <ul class="meta-list">
         <li>
-            {% include _date.html date=post.date %}
+            {% if page.lang == "en" %}
+            {% include _date.html date=page.date %}
+            {% else %}
+            {{ page.date | date: '%d.%m.%Y' }}
+            {% endif %}
         </li>
 
         {% for tag in page.tags %}
-        <li><a href="/tags#{{ tag }}">{{ tag }}</a></li>
+            {% if page.lang == "en" %}
+            <li><a href="/en/tags#{{ tag }}">{{ tag }}</a></li>
+            {% else %}
+            <li><a href="/tags#{{ tag }}">{{ tag }}</a></li>
+            {% endif %}
+
         {% endfor %}
     </ul>
     </center>

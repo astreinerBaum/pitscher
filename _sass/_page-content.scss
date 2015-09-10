@@ -7,9 +7,12 @@
 }
 
 .post-list {
-    list-style: none;
     @include vertical-gap(bottom);
+    h2{
+        line-height: 1;
+    }
     > li {
+        list-style: none;
         @include vertical-gap();
         >:last-child {
             margin-bottom: 0;
@@ -19,21 +22,26 @@
 
 .meta-list {
     font-weight: $base-font-weight;
-    list-style: none;
     margin-left: 0;
-    margin-bottom: -1em;
+    margin-bottom: 0;
+    a{
+        &:before {
+            content: "\A0 #";
+        }
+
+        &:after {
+            content: "\A0";
+        }
+    }
+
     > li {
+        list-style: none;
         display: inline-block;
         @include font-size(12px);
         + li {
             position: relative;
-            &:before {
-                /* content: &middot; */
-                
-                content: "#";
-                position: relative;
-                margin-left: $base-spacing-unit/6;
-            }
+            margin-left: $base-spacing-unit/6;
+
         }
     }
 }
@@ -82,18 +90,28 @@
         @include aspect-ratio(620, 166);
     }
 }
-.noliststyle {
-    list-style: none;
-}
 
-.archive-list {
-    list-style-type: none;
-    text-align: left;
+.postlist--short {
+    a{
+        display: block;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    li{
+        list-style: none;
+    }
+
+    .timestamp{
+        font-weight: $light-font-weight;
+        font-style: italic;
+        float: right;
+        color: $grey;
+    }
 }
 
 .footnotes{
     font-size: $small-print-size;
-    font-weight: $thin-font-weight;
+    font-weight: $light-font-weight;
     margin-bottom: 0;
 
     li > p {
@@ -104,3 +122,5 @@
 .reversefootnote {
     text-decoration: none;
 }
+
+

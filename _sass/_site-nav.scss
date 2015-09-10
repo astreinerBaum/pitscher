@@ -14,7 +14,7 @@
     
     @include font-size($h5-size);
     font-family: $title-font-family;
-    color: $grey;
+    color: $background-color;
 
 //    @include media-query(desk) {
 //        margin-left: $base-spacing-unit;
@@ -30,14 +30,15 @@
 }
 
 .site-nav__item__lang{
-    border-style: none;
-    color: $grey;
+    color: $background-color;
+    padding-right: 2px;
     
 //    @include media-query(desk) {
 //        margin-left: $base-spacing-unit * 1.1;
 //    }
     
     @include attention() {
-        color: $background-color;
+        color: $ui-color;
+        background-color: $background-color;
     }
 }
