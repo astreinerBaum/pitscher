@@ -1,5 +1,6 @@
 ---
 layout: default
+disqus: true
 ---
 <article class="post">
     <center>
@@ -25,6 +26,23 @@ layout: default
     <h1>{{ page.title }}</h1>
 
     {{ content }}
+    {% if page.disqus %}
+    <div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'pitscher';
+    var disqus_developer = 1; // Comment out when the site is live
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+    {% endif %}
     
 <!-- Next/previous Post not yet working
      {% if page.previous %} 
@@ -35,3 +53,11 @@ layout: default
     {% endif %}
 -->
 </article>
+
+
+
+
+
+
+
+

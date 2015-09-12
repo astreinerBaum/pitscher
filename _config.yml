@@ -18,19 +18,15 @@ kramdown:
 sass:
   style: :compressed
 
-
-
 # Asset paths
 assets:
   css: /css/
   sass: /sass/
-  fonts: /fonts/
   images: /img/
   javascript: /js/
 
 loadCSS_js: true
 
-# ui_color: 222
 
 # Author information
 author:
@@ -40,8 +36,6 @@ author:
   github: https://github.com/astreinerbaum
   flickr: https://www.flickr.com/photos/branchfree
 
-#Gotta figure out how to use it: google_verify: 2D5zbZ2Vatb8CeFj1cUCRdJZ3SQatSUlQesml02jEPo
-
 # compress.html by Anatol Broder (http://jch.penibelst.de)
 compress_html:
   clippings: all
@@ -50,7 +44,8 @@ compress_html:
   ignore:
     envs: [local]
 
-
+# Disqus comments
+  disqus: true
 
 defaults:
   # Default layout and language to everything
