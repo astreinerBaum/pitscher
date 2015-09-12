@@ -26,7 +26,18 @@ disqus: true
     <h1>{{ page.title }}</h1>
 
     {{ content }}
-    {% if page.disqus %}
+
+<!-- Next/previous Post not yet working
+     {% if page.previous %}
+        <a rel="prev" href="{{ page.previous.url }}">&larr; älter</a>
+    {% endif %}
+    {% if page.next %}
+        <a rel="next" href="{{ page.next.url }}">neuer &rarr;</a>
+    {% endif %}
+-->
+</article>
+
+{% if page.disqus %}
     <div id="disqus_thread"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES * * */
@@ -43,17 +54,6 @@ disqus: true
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
 
     {% endif %}
-    
-<!-- Next/previous Post not yet working
-     {% if page.previous %} 
-        <a rel="prev" href="{{ page.previous.url }}">&larr; älter</a>
-    {% endif %}
-    {% if page.next %} 
-        <a rel="next" href="{{ page.next.url }}">neuer &rarr;</a>
-    {% endif %}
--->
-</article>
-
 
 
 
