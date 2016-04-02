@@ -39,7 +39,7 @@ void draw() {
   if (myText.length() > 0) {
     pg.background(255);
     pg.fill(0);
-    textSize(72);
+    pg.textSize(72);
     //pg.textFont(f);
     pg.textAlign(CENTER, CENTER);
     pg.text(myText,width/2,height/2);
