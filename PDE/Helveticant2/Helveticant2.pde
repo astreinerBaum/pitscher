@@ -23,7 +23,7 @@ void setup() {
   frameRate(30); //fix to 30 so they won't get to fast if you have a small population
   smooth();
   //load an Ant Colony at x,y and a Population
-  antColony = new AntColony (width/2, height/2, 4000); //4000: 25-30fps on my machine
+  antColony = new AntColony (width/2, height/2, 500); //4000: 25-30fps on my machine
   //load "Background image" with the font
   pg = createGraphics(width, height);
   //f = createFont("Helvetica.ttf", textSize);
@@ -39,6 +39,7 @@ void draw() {
   if (myText.length() > 0) {
     pg.background(255);
     pg.fill(0);
+    textSize(72);
     //pg.textFont(f);
     pg.textAlign(CENTER, CENTER);
     pg.text(myText,width/2,height/2);
@@ -49,11 +50,11 @@ void draw() {
   }
   pg.endDraw();
   
-  println(textWidth(myText));
+  //println(textWidth(myText));
   if (debug == true){
     println(frameRate);
     image(pg,0,0); //show Background image
-    line(0, height/2-textSize, width, height/2-textSize);
+    //line(0, height/2-textSize, width, height/2-textSize);
   }
   antColony.run();
   pg.updatePixels(); 
