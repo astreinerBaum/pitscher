@@ -12,21 +12,21 @@
 
 AntColony antColony;
 PGraphics pg;
-PFont f;
+//PFont f;
 boolean debug = false;
 String myText = " ";
 int textSize;
 
 void setup() {
   textSize = 100;
-  size(1400, 700);
+  size(700, 700);
   frameRate(30); //fix to 30 so they won't get to fast if you have a small population
   smooth();
   //load an Ant Colony at x,y and a Population
   antColony = new AntColony (width/2, height/2, 4000); //4000: 25-30fps on my machine
   //load "Background image" with the font
   pg = createGraphics(width, height);
-  f = createFont("Helvetica.ttf", textSize);
+  //f = createFont("Helvetica.ttf", textSize);
   
   
 }
