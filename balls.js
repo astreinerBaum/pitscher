@@ -60,7 +60,7 @@ function setup() {
 		};
 		this.display = function () {
 			noStroke();
-			fill(this.ballCol,100,100);
+			fill(this.ballCol,50,100);
 			ellipse(this.location.x, this.location.y, this.radius, this.radius);
 		};
 		this.randomPush = function (percent) {
