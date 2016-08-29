@@ -3,7 +3,7 @@ title: "About Pitscher"
 permalink: /en/about/
 ---
 <center><i>Friends called me Pitscher when I was young and full of hope</i>
-<img src="/img/me.jpeg" alt="Pitscher" width="480" height="480">
+<img src="/img/me.png" alt="Pitscher" width="480" height="480">
 </center>
 <br>
   

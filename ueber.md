@@ -4,7 +4,7 @@ permalink: /ueber/
 ---
 <center>
 <i>Als ich noch Jung und voller Hoffnung war, nannte man mich Pitscher</i>
-<img src="/img/me.jpeg" alt="Pitscher" width="480" height="480">
+<img src="/img/me.png" alt="Pitscher" width="480" height="480">
 </center>
 <br>
 Heute studiere ich Medienkunst & Gestaltung an der Bauhaus Uni. 

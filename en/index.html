@@ -2,35 +2,17 @@
 title: about Art, Internet & himself
 layout: default
 ---
-<h1 class="title-light">Posts</h1>
+<h1 class="title-light">This site is currently in a transition phase. I collected some links where you can check out some of my stuff down below.</h1>
 
-{% assign posts = site.posts | where:"lang","en" %}
 
 <ul class="post-list">
-{% for post in posts limit:site.max_posts %}
-    <li>
-        <ul class="meta-list">
-            <li>
-                {% include _date.html date=post.date %}
-            </li>
-
-            {% for tag in post.tags %}
-            <li><a href="/en/tags#{{ tag }}">{{ tag }}</a></li>
-            {% endfor %}
-        </ul>
-
-        <h2><a class="index-title" href="{{ post.url }}">{{ post.title }}</a></h2>
-
-        {% if post.thumbnail.url %}
-            <p><img src="{{ post.thumbnail.url }}" alt="{{ post.title }}" width="{{ post.thumbnail.width }}" height="{{ post.thumbnail.height }}"></p>
-        {% else %}
-            {{ post.excerpt }}
-        {% endif %}
-        <a href="{{ post.url }}">...read more</a>
-    </li>
-{% endfor %}
+	<h2>Experiments</h2>
+	<li class="">
+		<a href="../Ants.html">Ants</a></br>
+	<a href="../balls.html">Balls</a></br>
+	<a href="../blockfont.html">Block Font</a></br>
+	<a href="../letter.html">mM</a></br>
+	<a href="../empty.txt">empty.txt</a></br>
+	<a href="../squares.html">Squares</a></br>
+	</li>
 </ul>
-
-{% if posts.size > site.max_posts %}
-<a href="/en/archive" class="island">See all posts in the archive</a>
-{% endif %}

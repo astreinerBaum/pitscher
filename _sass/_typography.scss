@@ -25,8 +25,11 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
     @include font-size($h1-size);
-    text-align: center;
-    font-style: italic;
+    text-align: justify;
+    font-weight: bold;
+	transform: skew(20deg,13deg);
+	text-shadow: 12px 12px 5px black;
+	word-break: break-all;
 }
 
 h2 {
@@ -50,8 +53,8 @@ h6 {
 }
 
 .title-light {
-    font-weight: $light-font-weight;
-    color: $grey;
+    font-weight: bold;
+	color: $grey;
 }
 
 .index-title {
