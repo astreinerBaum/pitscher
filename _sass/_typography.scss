@@ -25,11 +25,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
     @include font-size($h1-size);
-    text-align: justify;
-    font-weight: bold;
-	transform: skew(20deg,13deg);
-	text-shadow: 12px 12px 5px black;
-	word-break: break-all;
+
 }
 
 h2 {
@@ -158,3 +154,22 @@ pre {
 .small {
     font-size: $small-print-size;
 }
+
+.broken{
+	text-align: justify;
+    font-weight: bold;
+	animation-name: broke;
+	animation-duration: 30s;
+	animation-iteration-count: infinite;
+	animation-direction: normal;
+	animation-timing-function: linear;
+	color:  $grey;
+	text-shadow: 12px 12px 5px black;
+	word-break: break-all;
+}
+
+@keyframes broke{
+	from{transform: skewX(0deg)}
+	to{transform: skewX(180deg)}
+}
+
