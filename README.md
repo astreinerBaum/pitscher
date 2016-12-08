@@ -1,22 +1,14 @@
 # matthias.pitscher.pw
-This is my personal blog. If you want to find out more on how to create your own please visit [jekyll](https://jekyllrb.com/). I got inspired by [kleinfreund](http://hey.kleinfreund.de)s former template. 
+This used to be my personal blog made with [jekyll](https://jekyllrb.com/), but now I want it to be a collection of my work as an artist.
 
 
 ## To Do
-- change favicon to ui-color?
+I am currently working on a complete reconfiguration, where all files are .txt
 
 
 ##Known Bugs
 **If you find any please help me solve it :)**
-- Tidy code...
 
-
-## Features to include
-- Next/Previous Post (not possible?)
-- include facebook, youtube, vimeo, flickr icons?
-- Comments section? (with disqus maybe)
-- include Portfolio page DE/EN
-- subtle pattern?
 
 ## Licenses
 
