@@ -1,0 +1,81 @@
+name: pitscher
+title: PITSCHER
+url: astreinerbaum.github.io
+
+permalink: /:categories/:title
+relative_permalinks: false
+
+max_posts: 10
+excerpt_separator: <!--more-->
+
+gems:
+  - jekyll-sitemap
+
+kramdown:
+  input: GFM
+  auto_ids: true
+
+sass:
+  style: :compressed
+
+# Asset paths
+assets:
+  css: /css/
+  sass: /sass/
+  images: /img/
+  javascript: /js/
+
+loadCSS_js: true
+
+
+# Author information
+author:
+  name: Matthias Schäfer
+  email: schaefer9111@gmail.com
+  twitter: https://twitter.com/AstreinerBaum
+  github: https://github.com/astreinerbaum
+  flickr: https://www.flickr.com/photos/branchfree
+
+# compress.html by Anatol Broder (http://jch.penibelst.de)
+compress_html:
+  clippings: all
+  comments: ["<!--", "-->"]
+  endings: all
+  ignore:
+    envs: [local]
+
+# Disqus comments
+  disqus: true
+
+defaults:
+  # Default layout and language to everything
+  -
+    values:
+      layout: "default"
+      lang: "de"
+  # Specify default pages’ layout
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  # Specify default posts’ layout
+  -
+    scope:
+      type: "posts"
+    values:
+      layout: "post"
+  # Set language for everything inside `/en`
+  -
+    scope:
+      path: "en"
+    values:
+      lang: "en"
+  # Set language for English posts
+  -
+    scope:
+      path: "_posts/en"
+      type: "posts"
+    values:
+      lang: "en"

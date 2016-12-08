@@ -1,0 +1,175 @@
+html {
+    font: $base-font-weight #{($base-font-size/16px)*1em}/#{$line-height-ratio} $base-font-family;
+    color: $text-color;
+    background-color: $background-color;
+    overflow-y: scroll;
+    min-height: 100%;
+}
+
+p { 
+    @include media-query(palm){
+        font-size: $small-font-size;
+    }
+    & a {
+        text-decoration: underline;
+    }
+}
+
+/**
+ * Headings
+ */
+h1, h2, h3, h4, h5, h6 {
+    color: $ui-color;
+    margin-bottom: 5px;
+}
+
+h1 {
+    @include font-size($h1-size);
+
+}
+
+h2 {
+    @include font-size($h2-size);
+}
+
+h3 {
+    @include font-size($h3-size);
+}
+
+h4 {
+    @include font-size($h4-size);
+}
+
+h5 {
+    @include font-size($h5-size);
+}
+
+h6 {
+    @include font-size($h6-size);
+}
+
+.title-light {
+    font-weight: bold;
+	color: $grey;
+}
+
+.index-title {
+    font-weight: $bold-font-weight;
+    font-style: italic;
+}
+
+
+/**
+ * Lists
+ */
+li {
+    > ul,
+    > ol {
+         margin-bottom: 0;
+    }
+}
+
+dt {
+    font-weight: $bold-font-weight;
+}
+
+
+
+/**
+ * Quotations
+ */
+blockquote {
+    border-left: $border-width / 2 solid $ui-color;
+    margin-left: - $half-spacing-unit;
+    padding-left: $half-spacing-unit - $border-width / 2;
+    font-style: italic;
+
+    > :last-child {
+        margin-bottom: 0;
+    }
+}
+
+.source {
+    font-style: normal;
+}
+
+
+
+/**
+ * Inline elements
+ */
+strong {
+    font-weight: $bold-font-weight;
+}
+
+q {
+    font-style: italic;
+}
+
+
+
+/**
+ * Links
+ */
+a {
+    color: $ui-color;
+    font-weight: $base-font-weight;
+    text-decoration: none;
+
+    @include attention() {
+        background-color: $ui-color;
+        color: $background-color;
+    }
+}
+
+
+
+/**
+ * Code
+ */
+pre, code, kbd, samp {
+    font-family: 'Inconsolata', Consolas, Courier New, Courier, monospace;
+}
+
+code {
+    white-space: nowrap;
+}
+
+pre {
+    overflow: auto;
+    white-space: pre;
+    word-wrap: normal;
+    color: #fff;
+    background-color: $ui-color;
+    padding: $base-spacing-unit / 4 $half-spacing-unit;
+    border-radius: 3px;
+
+    > code {
+        @include font-size($small-print-size);
+        color: #fff;
+        white-space: pre;
+    }
+}
+
+.small {
+    font-size: $small-print-size;
+}
+
+.broken{
+	text-align: justify;
+    font-weight: bold;
+	animation-name: broke;
+	animation-duration: 30s;
+	animation-iteration-count: infinite;
+	animation-direction: normal;
+	animation-timing-function: linear;
+	color:  $grey;
+	text-shadow: 12px 12px 5px black;
+	word-break: break-all;
+}
+
+@keyframes broke{
+	from{transform: skewX(0deg)}
+	to{transform: skewX(180deg)}
+}
+

@@ -1,0 +1,17 @@
+.site-foot {
+    background-color: $ui-color;
+    color: $grey;
+    padding: $half-spacing-unit $base-spacing-unit;
+    font-size: $small-print-size;
+    font-family: 'Inconsolata', monospace;
+    text-align: center;
+
+    &,
+    a { 
+        color: $background-color;
+    }
+
+    p:last-of-type {
+        margin-bottom: 0;
+    }
+}

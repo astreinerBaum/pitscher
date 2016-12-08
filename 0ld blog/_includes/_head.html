@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang }}">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ site.title }}{% if page.title %} | {{ page.title }}{% endif %}</title>
+    {% if site.data.locales[page.lang].description %}<meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | truncate: 160 }}{% else %}{{ site.data.locales[page.lang].description }}{% endif %}">{% endif %}
+
+    {% if site.loadCSS_js %}
+    <script>
+        {% include loadcss.min.js %}
+        loadCSS("{{ site.assets.css }}{{ site.name }}.css")
+    </script>
+    <noscript>
+        <link rel="stylesheet" href="{{ site.assets.css }}{{ site.name }}.css">
+    </noscript>
+    {% else %}
+        <link rel="stylesheet" href="{{ site.assets.css }}{{ site.name }}.css">
+    {% endif %}
+    
+    {% if page.processing == true %}
+    <script src="js/processing.min.js"></script>
+    {% endif %}
+    <!--    Load fonts from "brick.im" -->
+    <link rel="stylesheet" href="//brick.a.ssl.fastly.net/Lato: 300,300i,400,400i,600,600i/Inconsolata:500">
+
+    <link rel="icon" href="/img/icon.png">
+    <link rel="icon" href="/img/icon.svg" sizes="any" type="image/svg+xml">
+    <link rel="apple-touch-icon-precomposed" href="/img/icon.png">
+</head>

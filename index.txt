@@ -1,0 +1,29 @@
+
+
+##    ## ###### ##     ##     ########  ##
+##    ## ##     ##     ##     ##    ##  ##
+######## ###### ##     ##     ##    ##  ##
+##    ## ##     ##     ##     ##    ##
+##    ## ###### ###### ###### ########  ##
+
+
+You found my Website!
+But why is it so ugly you might ask.
+What you are looking at is a regular .txt file and if you want you can download it and have it on your computer.
+The beautiful thing about these sort of text files is that you can not style it, it is just plain text and every-
+thing you could do with just a typewriter. 
+I found this site while looking for other text files. You should check it out: http://textfiles.com/ 
+																			   you actually have to mark the text
+																			   and copy&paste it in your address 
+																			   bar.
+																			   *In this text links will allways be
+																			   marked with "http://" - so you know
+
+
+Also a fun thing to know is that .txt can contain zero bytes, which means there is no meta (hidden) data in that 
+file (which might not be entirely true, but I will do some research and let you know).
+If you want to see one of those 0 byte files go to your adress bar and type "empty" instead of "index" so it should
+read /empty.txt
+
+If you just came here to look at all the things I shared on my social media sites you can type /socialmedia.html
+after the URL (the url is the thing that says "matthias.pitscher.xyz")

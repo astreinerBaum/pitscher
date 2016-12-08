@@ -1,0 +1,126 @@
+.page-content {
+    @include vertical-gap(bottom);
+    ul, ol {
+        list-style-position: outside;
+        list-style-type: square;
+    }
+}
+
+.post-list {
+    @include vertical-gap(bottom);
+    h2{
+        line-height: 1;
+    }
+    > li {
+        list-style: none;
+        @include vertical-gap();
+        >:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+
+.meta-list {
+    font-weight: $base-font-weight;
+    margin-left: 0;
+    margin-bottom: 0;
+    a{
+        &:before {
+            content: "\A0 #";
+        }
+
+        &:after {
+            content: "\A0";
+        }
+    }
+
+    > li {
+        list-style: none;
+        display: inline-block;
+        @include font-size(12px);
+        + li {
+            position: relative;
+            margin-left: $base-spacing-unit/6;
+
+        }
+    }
+}
+
+.block-note {
+    position: relative;
+    display: block;
+    @include font-size(16px);
+    @extend %vertical-rhythm;
+    &:before {
+        /* content: "/!\ "; */
+        
+        content: "\2F \21 \5C \A0";
+        position: absolute;
+        right: 100%;
+        color: $ui-color;
+        font-family: Consolas, Courier New, Courier, monospace;
+        font-weight: bold;
+    }
+}
+
+.quote__body {
+    >:last-child {
+        margin-bottom: 0;
+    }
+}
+
+.quote__source {
+    display: block;
+    &:before {
+        content: "\2014";
+    }
+}
+/**
+ * Responsive video/audio players
+ *   - Use 16:9 for videos in general
+ *   - Respect SoundCloud's fixed height to calculate ratio
+ */
+
+.iframe-wrapper {
+    @extend %vertical-rhythm;
+    &__video {
+        @include aspect-ratio(16, 9);
+    }
+    &__soundcloud {
+        @include aspect-ratio(620, 166);
+    }
+}
+
+.postlist--short {
+    a{
+        display: block;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    li{
+        list-style: none;
+    }
+
+    .timestamp{
+        font-weight: $light-font-weight;
+        font-style: italic;
+        float: right;
+        color: $grey;
+    }
+}
+
+.footnotes{
+    font-size: $small-print-size;
+    font-weight: $light-font-weight;
+    margin-bottom: 0;
+
+    li > p {
+        margin-bottom: 0;
+    }
+}
+
+.reversefootnote {
+    text-decoration: none;
+}
+
+

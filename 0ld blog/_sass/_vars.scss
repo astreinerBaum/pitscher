@@ -1,0 +1,47 @@
+/**
+ * Typography
+ */
+
+$title-font-family: "Inconsolata", monospace;
+$base-font-family:  "Arial", sans-serif;
+
+$light-font-weight:      300;
+$base-font-weight:       400;
+$bold-font-weight:       600;
+
+$base-line-height:  28px;
+
+$small-print-size:  12px;
+$small-font-size:   15px;
+$base-font-size:    18px;
+
+$h1-size:           38px;
+$h2-size:           30px;
+$h3-size:           26px;
+$h4-size:           22px;
+$h5-size:           18px;
+$h6-size:           14px;
+
+
+
+
+
+/**
+ * Colors
+ */
+$text-color:            #002;
+$grey:                  #A7A7B7;
+$background-color:      #f7f7f7;
+
+$alt-color:             #005;
+
+$ui-color:              #000025;
+$ui-color-dark:         darken($ui-color, 30%);
+
+
+
+
+/**
+ * Misc
+ */
+$border-width:          8px;
