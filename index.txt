@@ -13,11 +13,11 @@ What you are looking at is a regular .txt file and if you want you can download 
 The beautiful thing about these sort of text files is that you can not style it, it is just plain text and every-
 thing you could do with just a typewriter. 
 I found this site while looking for other text files. You should check it out: http://textfiles.com/ 
-																			   you actually have to mark the text
-																			   and copy&paste it in your address 
-																			   bar.
-																			   *In this text links will allways be
-																			   marked with "http://" - so you know
+																		you actually have to mark the text
+																		and copy&paste it in your address 
+																		bar.
+																		*In this text links will allways be
+																		marked with "http://" - so you know
 
 
 Also a fun thing to know is that .txt can contain zero bytes, which means there is no meta (hidden) data in that 
@@ -27,3 +27,18 @@ read /empty.txt
 
 If you just came here to look at all the things I shared on my social media sites you can type /socialmedia.html
 after the URL (the url is the thing that says "matthias.pitscher.xyz")
+
+
+
+
+
+I am currently working on my Bachelor Project with the title:
+
+##### ##### ##### #   #   #      #   # ##### ###   #   #    #   # ##### ###   # #####  #   ##### # ##### #   #
+#     #   # #     #  # #  #      ## ## #     #  #  #  # #   ## ## #     #  #  #   #   # #    #   # #   # ##  #
+##### #   # #     # #   # #      # # # ####  #   # # #   #  # # # ####  #   # #   #  #   #   #   # #   # # # #
+    # #   # #     # ##### #      #   # #     #  #  # #####  #   # #     #  #  #   #  #####   #   # #   # #  ##
+##### ##### ##### # #   # #####  #   # ##### ###   # #   #  #   # ##### ###   #   #  #   #   #   # ##### #   #
+
+
+More info soon! 
