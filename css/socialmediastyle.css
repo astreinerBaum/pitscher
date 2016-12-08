@@ -1,5 +1,5 @@
 body {
-	background: white;
+	background: #dddddd;
 	min-width: 1250px;
 }
 
@@ -113,7 +113,7 @@ p {
 		-webkit-box-align: start;
 		-ms-flex-align: start;
 		align-items: flex-start;
-		
+
 	}
 	#main > .wrapper-left {
 		-webkit-box-ordinal-group: 3;
@@ -134,7 +134,7 @@ p {
 		-ms-flex-order: 4;
 		order: 4;
 		width: 100%;
-		
+
 	}
 	#main > .sidebar-left {
 		-webkit-box-ordinal-group: 2;
