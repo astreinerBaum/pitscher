@@ -17,6 +17,8 @@
 
     .center {
         position: relative;
+        margin-left: 30%;
+        margin-right: 30%;
         top: 50%;
         transform: translateY(-50%);
     }
@@ -26,11 +28,18 @@
         font-size: 1.2em;
         font-family: monospace;
     }
+
+    #countdown{
+      word-wrap: break-word;
+    }
 </style>
 
 <body>
+  <div id ="countdown">
+
+  </div>
     <div class="center">
-        <p id="time">00:00:00</p>
+        <p id="time"></p>
     </div>
 </body>
 
