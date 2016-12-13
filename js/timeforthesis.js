@@ -25,7 +25,7 @@ function showRemaining() {
 
 
 var p5timer;
-var p5countdown;§
+var p5countdown;
 
 function setup() {
   p5timer = select('#time');
