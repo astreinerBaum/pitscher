@@ -7,40 +7,46 @@
     <script language="javascript" src="libraries/p5.dom.js"></script>
     <!-- <script language="javascript" src="libraries/p5.sound.js"></script> -->
     <script language="javascript" type="text/javascript" src="js/timeforthesis.js"></script>
-    <!-- this line removes any default padding and style. you might only need one of these values set. -->
+
 </head>
 <style>
+    @import url('https://fonts.googleapis.com/css?family=Space+Mono');
     body {
         padding: 0;
         margin: 0;
     }
 
+    p {
+        text-align: left;
+        font-size: 3em;
+        font-family: 'Space Mono', monospace;
+    }
+
+    a{
+      text-decoration: none;
+      text-shadow: 1px;
+    }
+
     .center {
+        text-align: center;
         position: relative;
-        margin-left: 30%;
-        margin-right: 30%;
+        margin-left: 5%;
+        margin-right: 5%;
         top: 50%;
         transform: translateY(-50%);
     }
 
-    #time {
-        text-align: center;
-        font-size: 1.2em;
-        font-family: monospace;
-    }
-
-    #countdown{
-      word-wrap: break-word;
-    }
+    #time {}
 </style>
 
 <body>
-  <div id ="countdown">
-
-  </div>
     <div class="center">
         <p id="time"></p>
+        <p>
+            follow my <a href="https://docs.google.com/document/d/1Vdh_NSgBkKv_ITbiDrQ0RefMR14_1DtsWLqhRLA7eSg/edit?usp=sharing">progress</a> and leave a comment
+        </p>
     </div>
+
 </body>
 
 </html>

@@ -13,7 +13,7 @@ function showRemaining() {
 	if (distance < 0) {
 		clearInterval(timer);
 		document.getElementById('time').innerHTML = 'EXPIRED!';
-
+		å
 		return;
 	}
 	days = Math.floor(distance / _day);
@@ -25,13 +25,12 @@ function showRemaining() {
 
 
 var p5timer;
-var p5countdown;
+
 
 function setup() {
-  p5timer = select('#time');
-  p5countdown = select('#countdown');
-  frameRate(1);
-  noCanvas();
+	p5timer = select('#time');
+	frameRate(1);
+	noCanvas();
 }
 
 function draw() {
@@ -40,33 +39,52 @@ function draw() {
 		p5timer.html("I had to give out my Thesis already...");
 	} else {
 
-    var countdays = "";
-		for (var i = 1; i < days+1; i++) {
+		var countdays = "";
+		for (var i = 1; i < days + 1; i++) {
 			countdays += "#" + i + "";
 		}
-    var counthours ="";
-    for (var i = 1; i < hours+1; i++) {
+		var counthours = "";
+		for (var i = 1; i < hours + 1; i++) {
 			counthours += "#" + i + "";
 		}
-    var countminutes ="";
-    for (var i = 1; i < minutes+1; i++) {
+		var countminutes = "";
+		for (var i = 1; i < minutes + 1; i++) {
 			countminutes += "#" + i + "";
 		}
-    var countseconds ="";
-    for (var i = 1; i < seconds+1; i++) {
+		var countseconds = "";
+		for (var i = 1; i < seconds + 1; i++) {
 			countseconds += "#" + i + "";
 		}
 
-    p5countdown.html(int(distance / _minute));
+    if (days > 0){
+      var daystring = "and " + days + " days remaining until I have to hand in my bachelor thesis... <br>"
+    }else{
+      var daystring = "remaining until I have to hand in my bachelor thesis..."
+    }
 
+    if (hours === 1){
+      var hourstring = hours + " hour</br>";
+    } else{
+      var hourstring = hours + " hours</br>";
+    }
+
+    if (minutes === 1){
+      var minutestring = minutes + " minute</br>";
+    } else{
+      var minutestring = minutes + " minutes</br>";
+    }
+
+    if (seconds === 1){
+      var secondstring = seconds + " second </br>"
+    } else{
+      var secondstring = seconds + " seconds </br>";
+    }
 		p5timer.html(
-      hours +  "&nbsp;&nbsp;&nbsp;&nbsp;hours</br>" +
-      minutes + " minutes </br>" +
-      seconds+ " seconds </br>" +
-      "and <br>"+
-      days +
-      " days remaining until I have to hand in my bachelor thesis... <br>"
-    );
+			hourstring +
+			minutestring +
+			secondstring +
+			daystring
+		);
 
 	}
 
