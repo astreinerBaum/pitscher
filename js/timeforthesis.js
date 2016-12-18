@@ -1,36 +1,27 @@
 //Find out the time remaining without p5.js out of simplicity
-var end = new Date(2017, 3, 23, 23, 59, 59, 99); //(YEAR,MONTH,DATE,HOUR,MINUTE,SECOND,MILLIS)
+var end = new Date(2017, 3, 24); //(YEAR,MONTH,DATE,HOUR,MINUTE,SECOND,MILLIS)
 var days, minutes, seconds, hours, distance;
 var _second = 1000;
 var _minute = _second * 60;
 var _hour = _minute * 60;
 var _day = _hour * 24;
-var timer;
 
 function showRemaining() {
 	var now = new Date();
 	distance = end - now;
-	if (distance < 0) {
-		clearInterval(timer);
-		document.getElementById('time').innerHTML = 'EXPIRED!';
-		å
-		return;
-	}
-	days = Math.floor(distance / _day);
-	hours = Math.floor((distance % _day) / _hour);
+	days = Math.floor(distance / _day - 30); //somehow the calculation is off by 30 days
+  hours = Math.floor((distance % _day) / _hour);
 	minutes = Math.floor((distance % _hour) / _minute);
 	seconds = Math.floor((distance % _minute) / _second);
-
 }
 
 
 var p5timer;
-
-
 function setup() {
 	p5timer = select('#time');
 	frameRate(1);
 	noCanvas();
+  showRemaining(); //not sure if necessary
 }
 
 function draw() {
@@ -80,6 +71,7 @@ function draw() {
       var secondstring = seconds + " seconds </br>";
     }
 		p5timer.html(
+      distance / 1000 + "<br>"+
 			hourstring +
 			minutestring +
 			secondstring +
