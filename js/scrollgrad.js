@@ -11,7 +11,7 @@ var index = 0;
 function draw(){
   for (var i = 0; i < windowHeight; i+=rows) {
     var gradient = (i / windowHeight * 20 + index) % 360;
-    fill(gradient, 50, 100);
+    fill(gradient, 70, 100);
     rect(0, i-rows, windowWidth, i);
   }
 
@@ -24,7 +24,7 @@ function mouseWheel() {
 
 function touchMoved() {
   index++;
-  return false;
+  //return false;
 }
 function windowResized() {
 	resizeCanvas(windowWidth, windowHeight);
