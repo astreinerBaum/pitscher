@@ -23,8 +23,8 @@ function mouseWheel() {
 }
 
 function touchMoved() {
-  index++;
-  //return false;
+    index++;
+  return false;
 }
 function windowResized() {
 	resizeCanvas(windowWidth, windowHeight);
