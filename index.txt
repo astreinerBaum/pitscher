@@ -1,44 +1,96 @@
-!If unreadable resize your window!
+If unreadable resize your window until line is not broken!
+|--------------------------------------------------------------|
 
-##    ## ###### ##     ##     ########  ##
-##    ## ##     ##     ##     ##    ##  ##
-######## ###### ##     ##     ##    ##  ##
-##    ## ##     ##     ##     ##    ##
-##    ## ###### ###### ###### ########  ##
-
+    PPP    III  TTTTTTT  SSS      CCC      HHHHHEEEEE   RRR
+    PPP    III  TTT      SSS      CCC      HHH    EEE   RRR
+    PPPPPIIIII  TTTTTT   SSS      CCC      HHH    EEE   RRR
+    PPP    III  TTT      SSS      CCC      HHH    EEE
+    PPP    III  TTTTTTT  SSSSSSS  CCCCCCC  HHHHHEEEEE   RRR
 
 You found my Website!
-But why is it so ugly you might ask.
-What you are looking at is a regular .txt file and if you want you can download it and have it on your computer.
-The beautiful thing about these sort of text files is that you can not style it, it is just plain text and every-
-thing you could do with just a typewriter. 
-I found this really cool site while looking for text based websites. You should check it out: http://textfiles.com/ 
-                                                                                              :-:-::-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:
-                                                                                              |	you actually have to mark the text   |
-                                                                                              . and copy&paste it in your address    .
-                                                                                              | bar.                                 |
-                                                                                              .	In this text links will allways be   .
-                                                                                              | marked with "http://" - so you know  |
-                                                                                              :-:-::-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:
+But why is it so ugly?
+What you are looking at is a regular .txt file. The beautiful
+thing about these sort of text files is that you can not style
+them. The only styling you can do is the same you could do with
+a typewriter. Recently I developed a healthy obsession with text
+files. Did you know that they can be 0kb? Replace /index.txt
+with /empty.txt in your adress bar to see one.
+Check http://textfiles.com for more awesome .txt files
 
-Also a fun thing to know is that .txt can contain zero bytes, which means there is no meta (hidden) data in that 
-file (which might not be entirely true, but I will do some research and let you know).
-If you want to see one of those 0 byte files go to your adress bar and type "empty" instead of "index" so it should
-read /empty.txt
+=======================USER INFO==============================
 
-If you just came here to look at all the things I shared on my social media sites you can type /socialmedia.html
-after the URL (the url is the thing that says "matthias.pitscher.xyz")
+    1. Everything starting with the character / is an internal
+       link and should be copied after my domain
 
+    2. Everything with http:// is an external link and should
+       copied as whole in the adress bar
 
+    3. If you get to frustrated send me an e-mail and I will
+       answer your question :) schaefer9111@gmail.com
 
+=============================================================
 
-I am currently working on my Bachelor Project with the title:
-
-##### ##### ##### #   #   #      #   # ##### ###   #   #    #   # ##### ###   # #####  #   ##### # ##### #   #
-#     #   # #     #  # #  #      ## ## #     #  #  #  # #   ## ## #     #  #  #   #   # #    #   # #   # ##  #
-##### #   # #     # #   # #      # # # ####  #   # # #   #  # # # ####  #   # #   #  #   #   #   # #   # # # #
-    # #   # #     # ##### #      #   # #     #  #  # #####  #   # #     #  #  #   #  #####   #   # #   # #  ##
-##### ##### ##### # #   # #####  #   # ##### ###   # #   #  #   # ##### ###   #   #  #   #   #   # ##### #   #
+If you are just here to check my social activity, visit:
+                    /socialmedia.html
 
 
-More info soon! 
+If you just want to look at my portfolio, here it is:
+
+               ,---------------------------,
+              '--------------------------./|
+              |                          | |
+              |       MY PORTFOLIO       | |
+              |                          | |
+              |      /portfolio.pdf      | |
+              |                          | |
+              |                          | |
+              |   iamanartistiamanarti   | |
+              |   stiamanartistiamanar   | |
+              |   tistiamanartistiaman   | |
+              |   artistiamnotanartist   | |
+              |                          | /
+              |                          |/
+              '--------------------------'
+
+But why am I disrupting your beautiful online experience?
+There is a very simple answer to it: I am a Media Artist.
+This is what Media Artists do. They use technology in a way
+that is unusual to make other people think about the con-
+ventions that we accepted as "normal".
+When I do work as an artist I hide behind the nickname Pitscher
+and I really enjoy building things that people can play or int-
+eract with. But at the moment I am trying out some things that
+rely on my physical body to interact with fellow humans.
+The title of this piece is:
+
+  _  _    _____            _       _   __  __          _ _
+_| || |_ / ____|          (_)     | | |  \/  |        | (_)
+_  __  _| (___   ___   ___ _  __ _| | | \  / | ___  __| |_  __ _
+_| || |_ \___ \ / _ \ / __| |/ _` | | | |\/| |/ _ \/ _` | |/ _` |
+_  __  _|____) | (_) | (__| | (_| | | | |  | |  __/ (_| | | (_| |
+ |_||_| |_____/ \___/ \___|_|\__,_|_| |_|  |_|\___|\__,_|_|\__,_|
+
+ __  __ ______ _____ _____ _______    _______ _____ ____  _   _
+|  \/  |  ____|  __ \_   _|__   __|/\|__   __|_   _/ __ \| \ | |
+| \  / | |__  | |  | || |    | |  /  \  | |    | || |  | |  \| |
+| |\/| |  __| | |  | || |    | | / /\ \ | |    | || |  | | . ` |
+| |  | | |____| |__| || |_   | |/ ____ \| |   _| || |__| | |\  |
+|_|  |_|______|_____/_____|  |_/_/    \_\_|  |_____\____/|_| \_|
+
+Social Media Meditation is a massive multi-platform global move-
+ment of people using the practice of meditation to find their
+inner peace online.
+
+You will be able to find the offical website under:
+http://www.socialmediameditation.net
+*Currently just a teaser Image*
+
+Also look after #SocialMediaMeditation in your favorite social
+network and you probably find one of us.
+
+If you want to check how deep I am in my thesis paper check:
+/timeforthesis.html
+
+If you want to do some meditative scrolling, check:
+/scroll.html
+*still in early development*
