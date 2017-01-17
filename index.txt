@@ -23,12 +23,12 @@ Check http://textfiles.com for more awesome .txt files
        link and should be copied after my domain
 
     2. Everything with http:// is an external link and should
-       copied as whole in the adress bar
+       be copied as whole in the adress bar
 
     3. If you get to frustrated send me an e-mail and I will
        answer your question :) schaefer9111@gmail.com
 
-=============================================================
+==============================================================
 
 If you are just here to check my social activity, visit:
                     /socialmedia.html
@@ -37,7 +37,7 @@ If you are just here to check my social activity, visit:
 If you just want to look at my portfolio, here it is:
 
                ,---------------------------,
-              '--------------------------./|
+              '--------------------------/|
               |                          | |
               |       MY PORTFOLIO       | |
               |                          | |
@@ -48,6 +48,8 @@ If you just want to look at my portfolio, here it is:
               |   stiamanartistiamanar   | |
               |   tistiamanartistiaman   | |
               |   artistiamnotanartist   | |
+              |                          | |
+              |                          | |
               |                          | /
               |                          |/
               '--------------------------'
