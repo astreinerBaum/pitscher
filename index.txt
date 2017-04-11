@@ -1,4 +1,4 @@
-If unreadable resize your window until line is not broken!
+   If unreadable resize your window until line is not broken!
 |--------------------------------------------------------------|
 
     PPP    III  TTTTTTT  SSS      CCC      HHHHHEEEEE   RRR
@@ -87,7 +87,7 @@ You will be able to find the official website under:
 http://www.socialmediameditation.net
 *Currently a teaser website*
 
-Also look after #SocialMediaMeditation in your favorite social
+Also look for #SocialMediaMeditation in your favorite social
 network and you probably find one of us.
 
 If you want to check how deep I am in my thesis paper check:
