@@ -94,5 +94,4 @@ If you want to check how deep I am in my thesis paper check:
 /timeforthesis.html
 
 If you want to do some meditative scrolling, check:
-/scroll.html
-*still in early development*
+http://www.socialmediameditation.net/mindfulscrolling.html

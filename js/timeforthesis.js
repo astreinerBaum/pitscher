@@ -15,7 +15,7 @@ function setup() {
 function draw() {
 	showRemaining();
 	if (distance <= 0) {
-		p5timer.html("I had to give out my Thesis already...");
+		p5timer.html("I had to hand in my Thesis already...");
 	} else {
 		//draw points
 		var countdays = "";
