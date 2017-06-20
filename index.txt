@@ -1,11 +1,15 @@
    If unreadable resize your window until line is not broken!
 |--------------------------------------------------------------|
 
+
+
     PPP    III  TTTTTTT  SSS      CCC      HHHHHEEEEE   RRR
     PPP    III  TTT      SSS      CCC      HHH    EEE   RRR
     PPPPPIIIII  TTTTTT   SSS      CCC      HHH    EEE   RRR
     PPP    III  TTT      SSS      CCC      HHH    EEE
     PPP    III  TTTTTTT  SSSSSSS  CCCCCCC  HHHHHEEEEE   RRR
+
+
 
 You found my Website!
 But why is it so ugly?
@@ -16,6 +20,9 @@ a typewriter. Recently I developed a healthy obsession with text
 files. Did you know that they can be 0kb? Replace /index.txt
 with /empty.txt in your adress bar to see one.
 Check http://textfiles.com for more awesome .txt files
+
+
+
 
 =======================USER INFO==============================
 
@@ -30,11 +37,17 @@ Check http://textfiles.com for more awesome .txt files
 
 ==============================================================
 
+
+
+
+
 If you are just here to check my social activity, visit:
                     /socialmedia.html
 
 
 If you just want to look at my portfolio, here it is:
+
+
 
                ,---------------------------,
               '--------------------------/ |
@@ -54,16 +67,41 @@ If you just want to look at my portfolio, here it is:
               |                          |/
               '--------------------------'
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+######   #     #  #######     #     #  #     #  #     #   ###
+#     #  #     #     #        #     #  #     #   #   #   #   #
+#     #  #     #     #        #     #  #     #    # #        #
+######   #     #     #        #  #  #  #######     #        #
+#     #  #     #     #        # # # #  #     #     #       #
+#     #  #     #     #        ##   ##  #     #     #
+######    #####      #        #     #  #     #     #       #
+
 But why am I disrupting your beautiful online experience?
 There is a very simple answer to it: I am a Media Artist.
-This is what Media Artists do. They use technology in a way
-that is unusual to make other people think about the con-
-ventions that we accepted as "normal".
+I use technology in a way that is unusual to make people think
+about the conventions that we accepted as "normal".
 When I do work as an artist I hide behind the nickname Pitscher
 and I really enjoy building things that people can play or int-
 eract with. But at the moment I am trying out some things that
 rely on my physical body to interact with fellow humans.
 The title of this piece is:
+
+
+
+
+
 
   _  _    _____            _       _   __  __          _ _
 _| || |_ / ____|          (_)     | | |  \/  |        | (_)
@@ -85,7 +123,6 @@ inner peace online.
 
 You will be able to find the official website under:
 http://www.socialmediameditation.net
-*Currently a teaser website*
 
 Also look for #SocialMediaMeditation in your favorite social
 network and you probably find one of us.
@@ -94,4 +131,4 @@ If you want to check how deep I am in my thesis paper check:
 /timeforthesis.html
 
 If you want to do some meditative scrolling, check:
-http://www.socialmediameditation.net/mindfulscrolling.html
+http://mindfulscrolling.online
