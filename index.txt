@@ -38,8 +38,9 @@ Check http://textfiles.com for more awesome .txt files
 ==============================================================
 
 
-
-
+                 +-+ +-+ +--+ +-+
+                 |f| |t| |yt| |v|
+                 +-+ +-+ +--+ +-+
 
 If you are just here to check my social activity, visit:
                     /socialmedia.html
