@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+
+  <style>
+    body {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      overflow:hidden;
+    }
+
+    .wall{
+      width:100%;
+      height:100%;
+      z-index: -2;
+      position: fixed;
+    }
+    .floor {
+      background-color: #ccc;
+      height: 25vh;
+      width: 100%;
+      position: fixed;
+      bottom: 0;
+      z-index: -1;
+    }
+
+    .wrap {
+      perspective: 800px;
+      perspective-origin: 50% 100px;
+      margin-top: 20vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 1;
+    }
+
+    .cube {
+      position: relative;
+      width: 200px;
+      transform-style: preserve-3d;
+      //-webkit-transform-origin: bottom bottom 100px;
+    }
+
+    .cube div {
+      position: absolute;
+
+    }
+
+    .right {
+      transform: rotateY(270deg) translateX(100px);
+      transform-origin: bottom right;
+      background-color: #eee;
+      width: 200px;
+      height: 65vh;
+    }
+
+    .left {
+      transform: rotateY(-270deg) translateX(-100px);
+      transform-origin: bottom left;
+      background-color: #eee;
+      width: 200px;
+      height: 65vh;
+    }
+
+    .top {
+      transform: rotateX(-90deg) translateY(-100px);
+      transform-origin: center top;
+      background-color: #eee;
+      height: 200px;
+      width: 200px;
+    }
+
+    .front {
+      transform: translateZ(100px);
+      background-color: white;
+      width: 200px;
+      height: 65vh;
+    }
+
+    .bottom {
+	    transform: rotateX(90deg) translateX(-5000px) translateY(65vh) translateZ(500px);
+	    transform-origin: bottom center;
+      background-color: #ccc;
+      width: 10000px;
+      height: 1000px;
+
+    }
+
+  /*@keyframes spin {
+	from { transform: rotateY(0deg); }
+	to { transform: rotateY(360deg); }
+}
+
+.cube {
+	animation: spin 10s infinite linear;
+}*/
+  </style>
+</head>
+
+<body>
+  <div class="wall"></div>
+  <!-- <div class="floor"></div> -->
+  <div class="wrap">
+    <div class="cube">
+       <div class="front"> </div>
+      <div class="top"></div>
+      <div class="left"></div>
+      <div class="right"></div>
+      <div class="bottom"></div>
+    </div>
+  </div>
+
+</body>
+
+</html>
+
+<script>
+//Global variables
+var w = window.innerWidth;
+var h = window.innerHeight;
+cube = document.getElementsByClassName("cube")[0];
+left = document.getElementsByClassName("left")[0];
+right = document.getElementsByClassName("right")[0];
+roof = document.getElementsByClassName("top")[0];
+
+window.onresize = function (event){
+  w = window.innerWidth;
+  h = window.innerHeight;
+};
+
+
+(function() {
+    document.onmousemove = handleMouseMove;
+    function handleMouseMove(e) {
+        var mouseX = e.pageX;
+        var mouseY = e.pageY;
+        var CoorX  = mouseX - w/2;
+        var CoorY  = mouseY - h/2;
+
+        // translateLeft = mapNum(CoorX, 0, w/2, -270, -220);
+        // translateRight= mapNum(CoorX, -w/2, 0, 220, 270);
+        // translateTop = mapNum(CoorY, -h/2, h/2, -90, -110);
+        // left.style.transform = "rotateY("+ translateLeft +"deg)";
+        // right.style.transform = "rotateY("+ translateRight +"deg)";
+        // roof.style.transform = "rotateX("+ translateTop + "deg)";
+
+        degX = mapNum(CoorX, -w/2, w/2, -30, 30);
+        degY = mapNum(CoorY, -h/2, h/2, -5, -15);
+
+        cube.style.transform = "rotateY("+degX+"deg)"+"rotateX("+degY+"deg)";
+
+    }
+})();
+
+
+function mapNum(n, start1, stop1, start2, stop2) {
+  return ((n-start1)/(stop1-start1))*(stop2-start2)+start2;
+};
+</script>
