@@ -148,7 +148,7 @@ function handleOrientation(event) {
   if (x >  90) { x =  90};
   if (x < -90) { x = -90};
 
-  degX = mapNum(x, -90, 90, 45, -45);
+  degX = mapNum(x, -90, 90, -45, 45);
   degY = mapNum(y, -90, 90, 45, -45);
 
   cube.style.transform = "rotateY("+degY+"deg)" + "rotateX("+degX+"deg)";
