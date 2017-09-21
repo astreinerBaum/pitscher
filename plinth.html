@@ -31,7 +31,7 @@
     .wrap {
       perspective: 800px;
       perspective-origin: 50% 100px;
-      margin-top: 20vh;
+      margin-top: 50vh;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -42,7 +42,7 @@
       position: relative;
       width: 200px;
       transform-style: preserve-3d;
-      //-webkit-transform-origin: bottom bottom 100px;
+      transform-origin: bottom bottom 100px;
     }
 
     .cube div {
@@ -82,22 +82,13 @@
     }
 
     .bottom {
-	    transform: rotateX(90deg) translateX(-5000px) translateY(65vh) translateZ(500px);
-	    transform-origin: bottom center;
+      transform: rotateX(90deg) translateX(-2000px) translateZ(calc(1000px - 65vh));
       background-color: #ccc;
-      width: 10000px;
-      height: 1000px;
+      width: 4000px;
+      height: 2000px;
 
     }
 
-  /*@keyframes spin {
-	from { transform: rotateY(0deg); }
-	to { transform: rotateY(360deg); }
-}
-
-.cube {
-	animation: spin 10s infinite linear;
-}*/
   </style>
 </head>
 
@@ -123,9 +114,6 @@
 var w = window.innerWidth;
 var h = window.innerHeight;
 cube = document.getElementsByClassName("cube")[0];
-left = document.getElementsByClassName("left")[0];
-right = document.getElementsByClassName("right")[0];
-roof = document.getElementsByClassName("top")[0];
 
 window.onresize = function (event){
   w = window.innerWidth;
@@ -141,21 +129,33 @@ window.onresize = function (event){
         var CoorX  = mouseX - w/2;
         var CoorY  = mouseY - h/2;
 
-        // translateLeft = mapNum(CoorX, 0, w/2, -270, -220);
-        // translateRight= mapNum(CoorX, -w/2, 0, 220, 270);
-        // translateTop = mapNum(CoorY, -h/2, h/2, -90, -110);
-        // left.style.transform = "rotateY("+ translateLeft +"deg)";
-        // right.style.transform = "rotateY("+ translateRight +"deg)";
-        // roof.style.transform = "rotateX("+ translateTop + "deg)";
+        var degX = mapNum(CoorX, -w/2, w/2, 25, -25);
+        var degY = mapNum(CoorY, -h/2, h/2, 0, -15);
 
-        degX = mapNum(CoorX, -w/2, w/2, -30, 30);
-        degY = mapNum(CoorY, -h/2, h/2, -5, -15);
-
-        cube.style.transform = "rotateY("+degX+"deg)"+"rotateX("+degY+"deg)";
+        cube.style.transform = "rotateY("+degX+"deg)" + "rotateX("+degY+"deg)";
 
     }
 })();
 
+function handleOrientation(event) {
+  var x = event.beta;  // In degree in the range [-180,180]
+  var y = event.gamma; // In degree in the range [-90,90]
+
+  // Because we don't want to have the device upside down
+  // We constrain the x value to the range [-90,90]
+  if (x >  90) { x =  90};
+  if (x < -90) { x = -90};
+
+  degX = mapNum(x, -90, 90, 25, -25);
+  degY = mapNum(y, -90, 90, 0, -15);
+
+  cube.style.transform = "rotateY("+degX+"deg)" + "rotateX("+degY+"deg)";
+
+}
+
+if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)) {
+    window.addEventListener('deviceorientation', handleOrientation);
+}
 
 function mapNum(n, start1, stop1, start2, stop2) {
   return ((n-start1)/(stop1-start1))*(stop2-start2)+start2;
