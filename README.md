@@ -1,13 +1,10 @@
-# matthias.pitscher.pw
-This used to be my personal blog made with [jekyll](https://jekyllrb.com/), but now I want it to be a collection of my work as an artist.
+# pitscher.net
+This used to be my personal blog made with [jekyll](https://jekyllrb.com/), but now it is just a plain old .txt file ;) 
 
 
-## To Do
-I am currently working on a complete reconfiguration, where all files are .txt
 
-
-##Known Bugs
-**If you find any please help me solve it :)**
+##Feedback
+**Please let me know what you think about it**
 
 
 ## Licenses
