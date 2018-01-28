@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0>
+    <meta name="keywords" content="contemporary, clock, javascript, black and white, nice">
+    <meta name="author" content="Matthias Pitscher">
+    <!-- facbeook stuff-->
+    <meta property="og:url" content="fb.png">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Stretch o'Clock">
+    <meta property="og:description" content="A contemporary stretching clock. Please enjoy the time.">
+    <title>stretch o'Clock</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <script src="clock.js"></script>
+
+    <style>
+      body{
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        font-family: monospace;
+      }
+
+      img{
+        width: 100%;
+        height: 100%;
+      }
+      .grid > div {
+        text-align: center;
+        transition: opacity 0.8s ease-in;
+      }
+      .grid{
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 1fr 1fr 0.3fr 1fr 1fr;
+        grid-auto-rows: auto;
+        overflow: hidden;
+      }
+      .col{
+      }
+      .row1{
+        grid-row: 1;
+        transform-origin: top;
+      }
+      .row2{
+        grid-row: 2;
+        transform-origin: bottom;
+        opacity: 0.3;
+      }
+
+      #three{
+        transform: scaleY(0);
+      }
+
+      #eight{
+        transform: scaleY(2);
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="grid">
+      <div class="row1 col" id="one"><img src="nums/1.svg"></div>
+      <div class="row1 col" id="two"><img src="nums/2.svg"></div>
+      <div class="row1 col" id="three"><img src="nums/colon.svg"></div>
+      <div class="row1 col" id="four"><img src="nums/4.svg"></div>
+      <div class="row1 col" id="five"><img src="nums/5.svg"></div>
+
+      <div class="row2 col" id="six"><img src="nums/6.svg"></div>
+      <div class="row2 col" id="seven"><img src="nums/7.svg"></div>
+      <div class="row2 col" id="eight"><img src="nums/colon.svg"></div>
+      <div class="row2 col" id="nine"><img src="nums/8.svg"></div>
+      <div class="row2 col" id="ten"><img src="nums/9.svg"></div>
+    </div>
+
+  </body>
+
+</html>
