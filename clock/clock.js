@@ -83,7 +83,7 @@ document.addEventListener('DOMContentLoaded', function() {
     //takes array[1,2] returns array[2,3]
     let h1 = h[0] + 1;
     let h2 = h[1] + 1;
-    if (h2 >= 9) {
+    if (h2 > 9) {
       h2 = 0
     } else if (h1 > 2 && h2 > 3) {
       h2 = 0
