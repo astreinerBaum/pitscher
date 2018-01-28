@@ -171,7 +171,7 @@ document.addEventListener('DOMContentLoaded', function() {
     six.style.transform = 'scaleY(' + lowerHour1 + ')';
     one.style.opacity = hour1 > 0.99999 ? 0 : 1;
 
-    eight.style.opacity = second() % 2 ? 0.1 : 1;
+    eight.style.opacity = second() % 2 ? 0.3 : 1;
 
     requestAnimationFrame(clock)
   }
