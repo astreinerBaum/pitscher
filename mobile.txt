@@ -1,15 +1,34 @@
 Hi,
 this is a short version of my
 .txt website for mobile users.
-visit with a computer to check
-out more stuff.
+Not very mobile friendly.
+
+Copy & paste this to see my
+portfolio (1.6mb):
+
+pitscher.net/portfolio.pdf
+
+Here is a condensed list of my
+online works:
+
+socialmediameditation.net
+mindfulscrolling.online
+whitecube.website
+pitscher.net/balls.html
+pitscher.net/squares.html
+pitscher.net/scroll.html
+pitscher.net/ukraine.html
+pitscher.net/clock/index.html
 
 
-instead of /mobile.txt
-type /portfolio.pdf
-or /timeforthesis.html
+Thanks for your attention. If you want more,
+check my feeds:
 
-to check out some mobile fri-
-endly stuff I made.
+vimeo.com/pitscher
+twitter.com/pi43r
+www.facebook.com/MPitscher/
+
+Or send me an e-mail:
+matthias@pitscher.net
 
 Goodbye, see you soon!
