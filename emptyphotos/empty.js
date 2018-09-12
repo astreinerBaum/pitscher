@@ -24,8 +24,8 @@ function createRandomImages(num){
   for(let i = 0; i < picNum; i++){ 
     let _w = Math.floor( minSize + Math.random() * picW );
     let _h = Math.floor( minSize + Math.random() * picH );
-    let _x = Math.floor( Math.random() * (w - picW - minSize) );
-    let _y = Math.floor( Math.random() * (h - picH - minSize) );
+    let _x = Math.floor( Math.random() * (w - _w) );
+    let _y = Math.floor( Math.random() * (h - _h) );
     createImage(_w, _h, _x, _y);
   }
 }
