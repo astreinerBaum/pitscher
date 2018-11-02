@@ -25,7 +25,7 @@ function draw() {
 
   image(cam, width/2, height/2, width, height);
   //filter(GRAY);
-  tint(255, 30);
+  tint(255, 50);
 
 }
 
