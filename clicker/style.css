@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'minecraftmedium';
+    src: url('assets/fonts/minecraft-webfont.woff2') format('woff2'),
+         url('assets/fonts/minecraft-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html.cursor, html.cursor * {
+    cursor: url('assets/imgs/sankt-cursor-75x100.gif'), auto !important;
+}
+html.cursor-down, html.cursor-down * {
+    cursor: url('assets/imgs/sankt-cursor-70x93.gif'), auto !important;
+}
+
+*{
+    font-family: 'minecraftmedium', monospace;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    
+}
+
+.gameWrapper {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1.8em;
+}
+
+#canvas{
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: -9999;
+}
+
+#clickerNumber{
+    font-size: 2.5em;
+}
+
+#countdown{
+    margin-bottom: 1em;
+}
+
+.top-left{
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    text-align: left;
+    font-size: 1em;
+}
+#highscore{
+    list-style-position: inside;
+    font-size: 0.9em;
+    padding-left: 0;
+    text-align: left;
+    line-height: 1.2;
+}
+
+.btn{
+    margin-top: 1em;
+    padding: 12px;
+    box-shadow: 3px 4px 0px 0px #444444;
+    background: #cccccc;
+}
+
+.btn:hover{
+    background: #ababab;
+}
+
+.btn:active{
+    box-shadow: 1px 2px 0px 0px #444444;
+}
+
+.small{
+    font-size: 0.7em;
+}
