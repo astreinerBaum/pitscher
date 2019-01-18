@@ -1,0 +1,55 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#text{
+    margin-bottom: 8px;
+}
+#subtext{
+    margin-top: 0px;
+    font-size: 0.6em;
+}
+
+.top-left{
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    text-align: left;
+    font-size: 1em;
+}
+
+.gameWrapper {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1.8em;
+}
+
+button{
+    margin-top: 1em;
+    padding: 12px;
+    font-size: 0.7em;
+    cursor: pointer;
+    box-shadow: 2px 3px 0px 0px #444;
+    background: #ccc;
+}
+
+button:hover{
+    background: #ababab;
+}
+
+button:active{
+    box-shadow: 1px 2px 0px 0px #444;
+}
+
+.p5Canvas{
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: -9999;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Move Mouse</title>
+    <style> body {padding: 0; margin: 0;} </style>
+    <script src="js/p5.min.js"></script>
+    <script src="js/p5.dom.min.js"></script>
+    <script src="js/p5.sound.min.js"></script>
+    <script src="sketch.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="gameWrapper">
+      <h3 id="text">Move mouse <u>exactly</u> the amount <br> of pixels shown on the screen</h3>
+      <p id="subtext">
+        Do not overshoot! <br>
+        Do not move the opposite direction! <br>
+        Change screen resolution and/or mousespeed to set difficulty.
+      </p>
+      <button id="button">PLAY</button>
+    </div>
+    <div class="top-left">
+        HIGHSCORE <br>
+        <span id="highscore"></span>
+      </div>
+  </body>
+</html>
