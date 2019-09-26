@@ -15,7 +15,7 @@ let countdownDOM, numberDOM, additionalTextDOM, hatemel;
 let gameState, avgSpeed;
 let waitForRestart;
 
-const COUNTDOWNSECONDS = 15
+const COUNTDOWNSECONDS = 15;
 
 function setup() {
   noCanvas(); // I interact directly with the DOM Elements
@@ -46,7 +46,7 @@ function draw() {
 
   if (gameState == 1) {
     additionalTextDOM.html('&nbsp;');
-    numberDOM.html(num.toString());
+    numberDOM.html(num);
 
     let colorCountdown = map(countdownTimer(), 15, 0, 140, 0);
     let decimalTime = countdownTimer().toString().split(".");
