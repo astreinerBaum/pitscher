@@ -10,3 +10,4 @@ node_modules
 ehthumbs.db
 Thumbs.db
 .jekyll-metadata
+.vscode/settings.json
