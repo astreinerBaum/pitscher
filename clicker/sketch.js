@@ -10,6 +10,7 @@ let countdown;
 let stopCounting = false;
 let countdownSet = false;
 let firstClick   = false;
+let restarted    = false;
 
 let countdownDOM, numberDOM, additionalTextDOM, hatemel;
 let gameState, avgSpeed;
@@ -39,12 +40,15 @@ function setup() {
 function draw() {
   //  drawBackground();
   if (gameState == 0) {
-    num = 0;
-    additionalTextDOM.html('CLICK TO START');
-    console.log("gamestate 000");
+    if(!restarted){
+      restarted = true;
+      num = 0;
+      additionalTextDOM.html('CLICK TO START');
+    }
   }
 
   if (gameState == 1) {
+    restarted = false;
     additionalTextDOM.html('&nbsp;');
     numberDOM.html(num);
 
