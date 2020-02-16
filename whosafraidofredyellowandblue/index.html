@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<!--
+Website made by pitscher
+Original artwork by Barnett Newman
+More info: https://en.wikipedia.org/wiki/Who's_Afraid_of_Red%2C_Yellow_and_Blue
+
+This is a free work, you can copy, distribute, and modify it under the terms of the Free Art License http://artlibre.org/licence/lal/en/
+Please break and redistribute. I promise restauration will not cost anything ;) 
+-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Who's Afraid of Red, Yellow and Blue</title>
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+
+    <!-- COMMON TAGS -->
+    <meta charset="utf-8">
+    <title>Who's Afraid of Red, Yellow and Blue</title>
+    <!-- Search Engine -->
+    <meta name="image" content="preview.jpg">
+    <!-- Schema.org for Google -->
+    <meta itemprop="name" content="Who's Afraid of Red, Yellow and Blue">
+    <meta itemprop="image" content="preview.jpg">
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Who's Afraid of Red, Yellow and Blue">
+    <meta name="twitter:creator" content="@pitscher">
+    <meta name="twitter:image:src" content="preview-twitter.jpg">
+    <!-- Open Graph general (Facebook, Pinterest & Google+) -->
+    <meta property="og:title" content="Who's Afraid of Red, Yellow and Blue">
+    <meta property="og:image" content="preview-fb.jpg">
+    <meta property="og:type" content="website">
+
+    <style>
+        html,
+        body {
+            margin: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+        }
+
+        body:-webkit-full-screen {
+            cursor: none;
+        }
+
+        body:-moz-full-screen {
+            cursor: none;
+        }
+
+        body:-ms-fullscreen {
+            cursor: none;
+        }
+
+        body:fullscreen {
+            cursor: none;
+        }
+
+        body:-webkit-full-screen {
+            background-color: yellow;
+        }
+
+        body:-moz-full-screen {
+            background-color: yellow;
+        }
+
+        body:-ms-fullscreen {
+            background-color: yellow;
+        }
+
+        body:fullscreen {
+            background-color: yellow;
+        }
+
+        .blue {
+            background: blue;
+            height: 100%;
+            width: 2%;
+        }
+
+        .red {
+            background: red;
+            height: 100%;
+            width: 97%;
+        }
+
+        .yellow {
+            background: yellow;
+            height: 100%;
+            width: 1%;
+        }
+    </style>
+
+    <script>
+        //go fullscreen
+        document.addEventListener("click", function () {
+            fullScreen(document.body);
+        }, false)
+
+        //helper function
+        function fullScreen(element) {
+            if (element.requestFullScreen) {
+                element.requestFullScreen();
+            } else if (element.webkitRequestFullScreen) {
+                element.webkitRequestFullScreen();
+            } else if (element.mozRequestFullScreen) {
+                element.mozRequestFullScreen();
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div class="blue"></div>
+    <div class="red"></div>
+    <div class="yellow"></div>
+</body>
+
+</html>
