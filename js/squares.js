@@ -14,7 +14,7 @@ function setup() {
 	noCursor();
 
 	osc = new p5.Oscillator('sine');
-	env = new p5.Env();
+	env = new p5.Envelope();
 	env.setADSR((1 / fr) / 3, 0.0, (1 / fr), (1 / fr) / 3);
 	env.setRange(1 / fr, 0.0);
 }
