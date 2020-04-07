@@ -75,6 +75,7 @@
                                                          
    Simply cool websites                                  
    ====================                                  
+         /MuseumOf/                                      
          /checkpattern/                                  
          /plinth/                                        
          /clock/                                         
